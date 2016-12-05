@@ -14,6 +14,7 @@ There are both examples in the code:
 
 Both drawing algorithms accept the following values:
 
+```swift
 // Number of points control points for creating the bezierPath
 definitionPoints = 10
 
@@ -29,6 +30,6 @@ yRandomness: CGFloat = 20
 // This values express how much the randomness increases along the axis
 xInfluenceInXAxis: CGFloat = 0.1
 yInfluenceInXAxis: CGFloat = 0.1
-
+```
 
 The code is pretty rough... no classes, just a few functions. I would like to improve it and also add make lines a bit more interesting and maybe animate some changes. Will keep playing with this for a while as I find it very interesting.
