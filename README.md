@@ -1,8 +1,7 @@
 # AlgoGraphics
 Random visualizations
 
-After reading [this post](http://inconvergent.net/spurious-splines/) I found it very beautiful and interesting. 
-I have just recreated it using swift.
+I found [this post](http://inconvergent.net/spurious-splines/) very beautiful and interesting, so I decided to recreate it using swift.
 
 There are both examples in the code:
 
@@ -30,3 +29,6 @@ yRandomness: CGFloat = 20
 // This values express how much the randomness increases along the axis
 xInfluenceInXAxis: CGFloat = 0.1
 yInfluenceInXAxis: CGFloat = 0.1
+
+
+The code is pretty rough... no classes, just a few functions. I would like to improve it and also add make lines a bit more interesting and maybe animate some changes. Will keep playing with this for a while as I find it very interesting.
